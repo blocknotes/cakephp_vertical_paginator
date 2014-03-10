@@ -28,9 +28,7 @@ A CakePHP Vertical Paginator element
 ##### USAGE EXAMPLE 2
 Combining it with Bootstrap.
 
-	<?php
-		echo $this->element( 'vertical_paginator', array( 'prev' => '<span class="glyphicon glyphicon-chevron-up"></span>', 'next' => '<span class="glyphicon glyphicon-chevron-down"></span>' ) );
-	?>
+	echo $this->element( 'vertical_paginator', array( 'prev' => '<span class="glyphicon glyphicon-chevron-up"></span>', 'next' => '<span class="glyphicon glyphicon-chevron-down"></span>' ) );
 
 * * *
 
