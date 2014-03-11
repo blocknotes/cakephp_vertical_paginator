@@ -50,7 +50,7 @@ if( isset( $this->Paginator ) )
 		else
 		{
 			$go_to = round( $this->_vp_cnt * $this->_vp_pages / $this->_vp_rows );
-			if( $go_to < 1 ) $go_to = 1;
+			if( $this->_vp_cnt == 1 || $go_to < 1 ) $go_to = 1;
 			else if( $go_to > $this->_vp_pages ) $go_to = $this->_vp_pages;
 			echo 'class="vp_cell">', $this->Paginator->link( '&nbsp;', array( 'page' => $go_to ), array( 'escape' => FALSE, 'title' => $go_to ) );
 		}
