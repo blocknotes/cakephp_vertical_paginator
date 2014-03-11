@@ -33,7 +33,7 @@ if( isset( $this->Paginator ) )
 		$this->_vp_cnt = 0;
 		$this->_vp_pages = intval( $this->Paginator->counter( '{:pages}' ) );
 		$this->_vp_page = intval( $this->Paginator->counter( '{:page}' ) );
-		$this->_vp_rows = count( $tests ) - 2;
+		$this->_vp_rows = intval( $this->Paginator->counter( '{:current}' ) ) - 2;
 		if( $this->_vp_page > 1 )
 		{
 			$this->_vp_pos = round( $this->_vp_rows * $this->_vp_page / $this->_vp_pages );
