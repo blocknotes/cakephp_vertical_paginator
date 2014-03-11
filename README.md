@@ -1,7 +1,16 @@
+# PROJECT UNMAINTAINED
+
+> *This project is not maintained anymore*
+>
+> *If you like it or continue to use it fork it please.*
+
+* * *
+* * *
+
 A CakePHP Vertical Paginator element
 ------------------------------------
 
-![Screenshot](http://github.com/blocknotes/cakephp_vertical_paginator/raw/master/image1.png)
+![Screenshot](image1.png)
 
 * * *
 
@@ -32,4 +41,4 @@ Combining it with Bootstrap.
 
 * * *
 
-My website: <http://blocknot.es/>
+My website: <https://blocknot.es/>
